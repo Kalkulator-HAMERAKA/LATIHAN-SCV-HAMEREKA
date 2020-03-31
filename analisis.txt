@@ -1,0 +1,8 @@
+masing-masing branch akan dicommits oleh setiap method yang ada dibranch
+setiap branch terdiri dari method-penjumlahan, method-pengurangan dan method-pembagian
+pull request akan menggabungkan setiap branch method ke master branch
+selesai confirm merge pull request akan hilang
+setelah pull request selesai tampilan setiap method akan sama dengan master branch
+panah pada insights akan menjelaskan dimana panah tersebut masuk kedalam master branch teknik ini disebut merge
+merge pada kelompok kami memiliki kendala dimana branch kami tidak bisa merge ke dalam master branch
+ada 2 merge ysng tidak masuk kedalam master branch
