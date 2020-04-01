@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>Tutorial Membuat Kalkulator Dengan PHP MySQL</title>
@@ -6,10 +7,9 @@
 <body>
     <?php 
         if(isset($_POST['hitung'])){
-            $bil1    =$_POST['bil1'];
-            $bil2    =$_POST['bil2'];
+            $bil1=$_POST['bil1'];
+            $bil2=$_POST['bil2'];
             $operasi=$_POST['operasi'];
-        
             switch ($operasi) {
                 case 'tambah':
                 $hasil = $bil1+$bil2;
