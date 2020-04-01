@@ -36,7 +36,7 @@
                 <option value="tambah">+</option>
                 <option value="bagi">/</option>
                 <option value="kali">x</option>
-                 <option value="kurang">x</option>
+                 <option value="kurang">-</option>
             </select>
             <input type="submit" name="hitung" value="Hitung" class="tombol"/> 
             <a href="./" style="text-decoration:none;"><input type="button" value="Hapus" class="tombol"/></a> 
