@@ -14,6 +14,12 @@
                 case 'tambah':
                 $hasil = $bil1+$bil2;
                 break;
+                case 'bagi':
+                $hasil = $bil1/$bil2;
+                break;
+                case 'kali':
+                $hasil = $bil1*$bil2;
+                break;
             }
         }
     ?>
@@ -24,6 +30,8 @@
             <input type="text" name="bil2" class="bil" placeholder="Bilangan 2" required/>
             <select class="opt" name="operasi">
                 <option value="tambah">+</option>
+                <option value="bagi">/</option>
+                <option value="kali">x</option>
             </select>
             <input type="submit" name="hitung" value="Hitung" class="tombol"/> 
             <a href="./" style="text-decoration:none;"><input type="button" value="Hapus" class="tombol"/></a> 
