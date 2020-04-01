@@ -20,7 +20,7 @@
                 case 'kali':
                 $hasil = $bil1*$bil2;
                 break;
-                case 'kali':
+                case 'kurang':
                 $hasil = $bil1-$bil2;
                 break;
             }
